@@ -13,26 +13,21 @@ header {
   color: #49a6e9;
 }
 section {
+  width: 100vw;
   height: calc(100vh - 60px);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container {
-  width: 600px;
+  width: 550px;
   text-align: center;
 }
-.container h2 {
-  background: black;
-  font-size: 2.5rem;
-  font-weight: 700;
-  color: white;
+.value {
+  display: inline-block;
   margin-bottom: 30px;
-  padding: 1rem;
-  box-sizing: border-box;
-}
-.color {
-  color: #ffffff;
+  font-size: 7rem;
+  font-weight: 700;
 }
 .btn {
   text-transform: uppercase;
@@ -44,7 +39,7 @@ section {
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
   font-size: 1rem;
-  padding: 0.75rem 1.25rem;
+  padding: 0.5rem 1rem;
   transition: all 0.3s ease-out;
 }
 .btn:hover {

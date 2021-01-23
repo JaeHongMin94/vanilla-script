@@ -44,7 +44,11 @@ section {
   height: 150px;
 }
 .project-separation > a:nth-child(1) .project-img {
-  background: url('./color-filter/images/changeColor.PNG') no-repeat center;
+  background: url('./images/changeColor.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(2) .project-img {
+  background: url('./images/count.PNG') no-repeat center;
   background-size: cover;
 }
 .project-txt {
