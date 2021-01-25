@@ -59,6 +59,10 @@ section {
   background: url('./images/navbar.PNG') no-repeat center;
   background-size: contain;
 }
+.project-separation > a:nth-child(5) .project-img {
+  background: url('./images/sidebar.PNG') no-repeat center;
+  background-size: cover;
+}
 .project-txt {
   padding: 20px 20px;
   border-top: 1px solid #c7c7c7;

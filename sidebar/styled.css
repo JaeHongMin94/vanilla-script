@@ -1,0 +1,91 @@
+body {
+  background: #f1f5f8;
+}
+.sidebar-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 3rem;
+  font-size: 2rem;
+  background: transparent;
+  border-color: transparent;
+  color: #49a6e9;
+  transition: all 0.3s ease-out;
+  outline: none;
+  cursor: pointer;
+}
+.sidebar-toggle:hover {
+  color: #8bcbf9;
+}
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  row-gap: 1rem;
+  box-shadow: #bb2525;
+  transition: all 0.3s ease-out;
+  transform: translate(-100%);
+}
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+.logo {
+  justify-self: center;
+  height: 40px;
+}
+.close-btn {
+  font-size: 1.75rem;
+  background: transparent;
+  border-color: transparent;
+  color: #49a6e9;
+  transition: all 0.3s ease-out;
+  outline: none;
+  cursor: pointer;
+  color: hsl(360, 67%, 44%);
+}
+.close-btn:hover {
+  color: hsl(360, 71%, 66%);
+  transform: rotate(360deg);
+}
+.links a {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  padding: 1rem 1.5rem;
+  color: #617d98;
+  transition: all 0.3s ease-out;
+}
+.links a:hover {
+  background: #a5d5f8;
+  color: #49a6e9;
+  padding-left: 1.75rem;
+}
+.social-icons {
+  justify-self: center;
+  display: flex;
+  padding-bottom: 2rem;
+}
+.social-icons a {
+  font-size: 1.5rem;
+  margin: 0 0.5rem;
+  color: #49a6e9;
+  transition: all 0.3s ease-out;
+}
+.social-icons a:hover {
+  color: hsl(205, 86%, 17%);
+}
+.show-sidebar {
+  transform: translate(0);
+}
+@media screen and (min-width: 676px) {
+  .sidebar {
+    width: 400px;
+  }
+}
