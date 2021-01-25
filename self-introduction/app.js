@@ -48,7 +48,7 @@ const charctors = [
     name: 'Jay-G',
     motive: 'Hip-hop Singer',
     img:
-      'https://lh3.googleusercontent.com/proxy/FxNqNdD1YN7VDQAVVFoh1L7kDoyfO1k9ItRXTr71e-gSMkzbnOmozOothH-jpB5NwQV9wiFzGdEYB5XZvbsiSRz3dtVwK592YcfYg1Nca1G6rcmhzTnQ0G4sdyhKV4TDZmCHDe-bwIjaGjUE841jP3zxyTf20Nn3bHxw9w3hEHlYJIxbT6AEqQvHqImRgYCIqcbXsDAZUVFqJ4wRlyWgB5xTveJ-T5j5buWOk0KQxdWB36LHHgD2-Z_5tlpOO3EgjLucSv2G6FgtNDggLv3S3YRSzE78DakxfkkZbkh0806PagKcpKzGFAbd73TnGHvQkNT1r_f6JfFwEUtIzMwk16U',
+      'https://file3.instiz.net/data/cached_img/upload/2019/01/20/18/50de20d8085a5ee4eab185abaf43eae3.jpg',
     text:
       '땅속 나라 고향에 대한 향수병이 있는 비밀요원 제이지! 사명의식이 투철하여 냉철해보이고 싶으나, 실은 어리버리합니다. 겉모습과 달리 알고보면 외로움을 많이 타는 여린 감수성의 소유자. 힙합 가수 Jay-Z의 열혈팬입니다.',
   },
