@@ -67,6 +67,14 @@ section {
   background: url('./images/modal.PNG') no-repeat center;
   background-size: cover;
 }
+.project-separation > a:nth-child(7) .project-img {
+  background: url('./images/question.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(8) .project-img {
+  background: url('./images/menu.PNG') no-repeat center;
+  background-size: cover;
+}
 .project-txt {
   padding: 20px 20px;
   border-top: 1px solid #c7c7c7;
