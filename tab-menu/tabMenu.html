@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="민재홍" />
+    <title>Tap Menu</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="./styled.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Self-Introduction</h1>
+    </header>
+
+    <section class="section">
+      <div class="sub-title">
+        <h2>about</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      </div>
+
+      <div class="about-center section-center">
+        <article class="about-img">
+          <img src="./Scenery.jpeg" alt="풍경" />
+        </article>
+        <article class="about">
+          <div class="btn-container">
+            <button class="tab-btn active" data-id="history">history</button>
+            <button class="tab-btn" data-id="vision">vision</button>
+            <button class="tab-btn" data-id="goals">goals</button>
+          </div>
+
+          <div class="about-content">
+            <div class="content active" id="history">
+              <h3>history</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Praesentium, omnis? Pariatur, ad! Totam pariatur, omnis aperiam
+                mollitia voluptate at nemo debitis. Voluptatem molestias ducimus
+                reprehenderit quaerat laudantium totam ratione explicabo.
+              </p>
+            </div>
+
+            <div class="content" id="vision">
+              <h3>vision</h3>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam,
+                mollitia adipisci omnis quasi, iusto veniam repudiandae nemo,
+                qui vero consequatur ipsum alias voluptates repellendus
+                distinctio. Nisi obcaecati architecto reprehenderit fugit!
+              </p>
+            </div>
+
+            <div class="content" id="goals">
+              <h3>goals</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Adipisci excepturi quas tenetur eius, obcaecati expedita neque
+                odio quaerat nulla, animi, voluptates non atque. Deleniti, eius
+                laudantium perspiciatis fugiat hic atque?
+              </p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
