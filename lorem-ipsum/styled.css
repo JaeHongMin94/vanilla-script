@@ -1,0 +1,66 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #f1f5f8;
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: 40rem;
+  margin-top: 5rem;
+  text-align: center;
+}
+h1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  letter-spacing: 0.25rem;
+  text-transform: uppercase;
+  color: #063251;
+  margin-bottom: 0.75rem;
+}
+.lorem-form {
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+label {
+  font-size: 1.25rem;
+  color: #063251;
+}
+input {
+  padding: 0.24rem 0.5rem;
+  width: 4rem;
+  border-radius: 8px;
+  border: none;
+  margin: 0 0.5rem;
+  font-size: 1.25rem;
+}
+button {
+  text-transform: uppercase;
+  background: #49a6e9;
+  color: #063251;
+  padding: 0.375rem 0.75rem;
+  letter-spacing: 1px;
+  display: inline-block;
+  transition: all 0.3s ease-out;
+  font-size: 0.875rem;
+  border: 2px solid #49a6e9;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+.result {
+  color: #617d98;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
