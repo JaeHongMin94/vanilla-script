@@ -79,6 +79,38 @@ section {
   background: url('./images/video.PNG') no-repeat center;
   background-size: cover;
 }
+.project-separation > a:nth-child(10) .project-img {
+  background: url('./images/scroll.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(11) .project-img {
+  background: url('./images/tabMenu.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(12) .project-img {
+  background: url('./images/countdownTimer.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(13) .project-img {
+  background: url('./images/lorem.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(14) .project-img {
+  background: url('./images/groceryBud.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(15) .project-img {
+  background: url('./images/slider.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(16) .project-img {
+  background: url('./images/es6Slider.PNG') no-repeat center;
+  background-size: cover;
+}
+.project-separation > a:nth-child(17) .project-img {
+  background: url('./images/stripeSubmenu.PNG') no-repeat center;
+  background-size: cover;
+}
 .project-txt {
   padding: 20px 20px;
   border-top: 1px solid #c7c7c7;
